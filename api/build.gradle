@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.company'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":service")
+    implementation project(":db")
+}
